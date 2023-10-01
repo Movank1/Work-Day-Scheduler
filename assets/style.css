@@ -1,0 +1,91 @@
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-image: url('../assets/image/P1.jpeg');
+  color: #d4dee7;
+
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+
+
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.fist-block{
+  border-radius: 15px;
+  background-color: hsl(118, 88%, 44%);
+  font: bold 12px/25px Arial, sans-serif;
+ 
+    
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #8ab3d4;
+  color: white;
+}
+
+.present {
+  background-color: #596207;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.notification {
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+
+
+
+}
+
+.show {
+  display: block;
+}
